@@ -27,7 +27,7 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>${mule.version}</muleVersion>
+						<muleVersion>4.4.0</muleVersion>
 						<username>${anypoint.username}</username>
 						<password>${anypoint.password}</password>
 						<workers>${workers}</workers>
@@ -36,10 +36,6 @@
 						<environment>${cloudhub.environment}</environment>
 						<objectStoreV2>true</objectStoreV2>
 						<applicationName>${cloudhub.app}</applicationName>
-						<properties>
-							<mule.env>${mule.env}</mule.env>
-							<anypoint.platform.config.analytics.agent.enabled>true</anypoint.platform.config.analytics.agent.enabled>
-						</properties>
 					</cloudHubDeployment>
 					<executions>
 						<execution>
